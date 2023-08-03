@@ -68,7 +68,7 @@ public class Pizza {
         if(!isbillgenerated)
         {
             isbillgenerated=true;
-            bill=bill+"Total Price: "+totalprice;
+            bill=bill+"Total Price: "+totalprice+"\n";
         }
         return this.bill;
     }
