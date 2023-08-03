@@ -57,7 +57,7 @@ public class Pizza {
         if(!ispaperbagAdded)
         {
             totalprice=totalprice+paperbagPrice;
-            bill=bill+"Extra Toppings Added: "+paperbagPrice+"\n";
+            bill=bill+"Paperbag Added: "+paperbagPrice+"\n";
             ispaperbagAdded=true;
         }
 
